@@ -15,7 +15,7 @@ html, body {
   /* Negative indent footer by its height */
   margin: 0 auto -65px;
   /* Pad bottom by footer height */
-  /*padding: 0 0 60px;*/
+  /* padding: 0 0 60px; */
 }
 
 /* Navbar */
@@ -101,7 +101,7 @@ html, body {
 .img-responsive {
  display: block;
  height: auto;
- max-width: 100%;
+ max-width: 80%;
  
 }
 
@@ -158,7 +158,6 @@ html, body {
 }
 .avatar {
   padding-top: 5%;
-  max-width: 200px !important
 }
 .blog-post{
   padding-top: 15px;
