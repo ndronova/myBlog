@@ -5,14 +5,14 @@
       <section id="about">
         <div class="container">
         <div class="avatar">
-          <img class="img-circle" style="display:none" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+          <img class="img-circle" src="{{ .Site.BaseURL }}/{{ .Site.Params.avatar }}" alt="Responsive image">
           
         </div>
         <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer in progress.</h3>
         <h3>One year ago I realized I want to learn how to code and create things. Since then I’ve been nurturing this idea, reading articles, playing around with HTML and CSS, but never really committing to the actual challenge of learning to code.</h3>
         <h3>This blog is about being a newbie, getting out of the comfort zone, diving deep into the tech and sharing my journey with all its struggles, failures and successes.</h3>
         <h3>Have a look at my <a base href="{{ .Site.BaseURL }}projects/"> projects</a>.</h3>
-        <h3>Check out my <a href="{{ .Site.BaseURL }}resume/CV Natalia Dronova.pdf" target="new">CV</a>.</h3>
+        <h3>Check out my <a href="{{ .Site.BaseURL }}resume/CV Natalia Dronova.pdf" target="blank">CV</a>.</h3>
         <h3>Contact me at <a href="https://www.linkedin.com/in/nataliadronova/ {{ .Site.Params.Social.Linkedin }}">@{{ .Site.Params.Social.LinkedIn }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
         {{ partial "social.html" . }}
         </div>

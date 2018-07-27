@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "http://nataliadronova.com/"
 languageCode = "en-US"
 title = "Chris Turner"
 # Enable comments by entering your Disqus shortname
@@ -11,7 +11,7 @@ theme = "hugo-sustain-master"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
+  avatar = "profile.jpg"
   author = "Natalia Dronova"
   description = "Describe your website"
 
@@ -21,9 +21,9 @@ theme = "hugo-sustain-master"
 
 [params.social]
   Github        = "username"
-  Email         = "email@example.com"
+  Email         = "ndronova04@gmail.com"
   Twitter       = "username"
-  LinkedIn      = "username"
+  LinkedIn      = "nataliadronova"
   Stackoverflow = "username"
 
 ## Main Menu

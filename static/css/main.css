@@ -4,7 +4,7 @@ html, body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 3px solid #ffffff;
 }
 
 /* Wrapper for page content to push down footer */
@@ -90,6 +90,8 @@ html, body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+
 .container a {
   color: #27A822;
 }
@@ -100,6 +102,7 @@ html, body {
  display: block;
  height: auto;
  max-width: 100%;
+ 
 }
 
 
@@ -155,7 +158,7 @@ html, body {
 }
 .avatar {
   padding-top: 5%;
-  max-width: 200px;
+  max-width: 200px !important
 }
 .blog-post{
   padding-top: 15px;
