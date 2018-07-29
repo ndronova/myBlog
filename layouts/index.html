@@ -4,13 +4,17 @@
       {{ partial "header" . }}
       <section id="about">
         <div class="container">
+            <h1>About [Me]</h1>
         <div class="avatar">
           <img class="img-circle" style="max-width: 350px" src="{{ .Site.BaseURL }}/{{ .Site.Params.avatar }}" alt="Responsive image">
           
         </div>
-        <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer in progress.</h3>
-        <h3>One year ago I realized I want to learn how to code and create things. Since then I’ve been nurturing this idea, reading articles, playing around with HTML and CSS, but never really committing to the actual challenge of learning to code.</h3>
-        <h3>This blog is about being a newbie, getting out of the comfort zone, diving deep into the tech and sharing my journey with all its struggles, failures and successes.</h3>
+        
+        <h3>My name is Natalia.</h3>
+        <h3>I studied in the University of Queensland, doing Master in Business and majoring in Information Systems (basically, it is 70% business and 30% IT). </h3>
+        <h3>Before coming to Australia I made a promise to myself to say "Yes" to every opportunity that comes my way and to chase those opportunities that try sneaking by. So far it has paid off tremendously: I've volunteered as a teacher in Indonesia, participated in debating competitions all over Russia, started tutoring in UQ, took on an executive role in a student club and, what's more, I made personal growth a priority. </h3>
+        <h3>Through a lot of failures and successes I discovered my love of solving problems with technology.  Since then I've been teaching myself front-end, and have just moved to Python and Java. </h3>
+        <h3>One day, I'd want this blog to be a place people will go for answers. Now, this is a place to learn, reflect, fail and build the expertise needed for the future.</h3>
         <h3>Have a look at my <a base href="{{ .Site.BaseURL }}projects/"> projects</a>.</h3>
         <h3>Check out my <a href="{{ .Site.BaseURL }}docs/CV Natalia Dronova.pdf" target="blank">CV</a>.</h3>
         <h3>Contact me at <a href="https://www.linkedin.com/in/nataliadronova/ {{ .Site.Params.Social.Linkedin }}">@{{ .Site.Params.Social.LinkedIn }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>

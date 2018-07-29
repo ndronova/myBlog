@@ -20,11 +20,10 @@ theme = "hugo-sustain-master"
   custom_js  = []
 
 [params.social]
-  Github        = "username"
+  Github        = "ndronova"
   Email         = "ndronova04@gmail.com"
-  Twitter       = "username"
   LinkedIn      = "nataliadronova"
-  Stackoverflow = "username"
+
 
 ## Main Menu
 [[menu.main]]
@@ -37,8 +36,4 @@ theme = "hugo-sustain-master"
   identifier = "projects"
   weight = 200
   url = "/projects/"
-[[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/"
+
