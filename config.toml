@@ -1,6 +1,6 @@
 baseurl = "http://nataliadronova.com/"
 languageCode = "en-US"
-title = "Chris Turner"
+title = "Natalia Dronova"
 # Enable comments by entering your Disqus shortname
 # disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -27,13 +27,13 @@ theme = "hugo-sustain-master"
 
 ## Main Menu
 [[menu.main]]
-  name = "blog"
+  name = "home"
+  identifier = "home"
   weight = 100
+  url = "/index.html/"
+  [[menu.main]]
+  name = "blog"
+  weight = 200
   identifier = "blog"
   url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
 
